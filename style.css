@@ -7,7 +7,7 @@ body {
 
 header {
     background: #333;
-    color: white;
+    color: blue;
     padding: 20px;
 }
 
@@ -15,4 +15,25 @@ nav a {
     color: white;
     margin-right: 15px;
     text-decoration: none;
+}
+/* Ajustes para telemóvel */
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    nav a {
+        font-size: 18px;
+        display: block;
+        margin: 8px 0;
+    }
 }
